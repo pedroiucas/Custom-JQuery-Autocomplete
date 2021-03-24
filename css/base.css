@@ -1,0 +1,41 @@
+/*Para alterar as cores do input, basta alterar as variáveis*/
+:root {
+  --borda-input-baixo-dentro: #26a69a;
+  --borda-input-baixo-fora: #9e9e9e;
+  --label-input-dentro: #26a69a;
+  --label-input-fora: #616161;
+  --branco: white;
+}
+/* Estrutura */
+.input-container {
+  position: relative;
+}
+
+.input {
+  border: 0;
+  border-bottom: 2px solid var(--borda-input-baixo-fora);
+  outline: none;
+  transition: 0.2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.label {
+  top: 0;
+  left: 0;
+  right: 0;
+  color: var(--label-input-fora);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 1rem;
+  cursor: text;
+  transition: 0.2s ease-in-out;
+  box-sizing: border-box;
+}
+
+.input,
+.label {
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+}

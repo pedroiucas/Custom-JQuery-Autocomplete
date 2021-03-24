@@ -1,0 +1,16 @@
+.ui-menu-item-wrapper {
+  color: var(--label-input-fora);
+}
+.ui-menu-item-wrapper:hover {
+  color: var(--label-input-dentro);
+  background-color: var(--branco);
+  border: 1px solid var(--branco);
+}
+.ui-widget.ui-widget-content {
+  border: 1px solid var(--branco);
+}
+
+.ui-widget-content {
+  border: 0px solid;
+  color: var(--label-input-fora);
+}

@@ -1,0 +1,13 @@
+/* Interações do input*/
+.input:valid,
+.input:focus {
+  border-bottom: 2px solid var(--borda-input-baixo-dentro);
+}
+
+.input:valid + .label,
+.input:focus + .label {
+  color: var(--label-input-dentro);
+  font-size: 0.8rem;
+  top: -30px;
+  pointer-events: none;
+}
